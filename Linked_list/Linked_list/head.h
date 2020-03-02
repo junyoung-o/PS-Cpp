@@ -58,6 +58,7 @@ void Link::link_Node(char name, int data) {
 	temp->next = current->next;
 	current->next = nextN;
 	nextN->next = temp->next;
+	delete temp;
 }
 
 void Link::print() {
