@@ -11,7 +11,6 @@ int main(void) {
 	int temp = a - b;
 
 	while(result * temp > v or v > result * temp + b) {
-		//cout << result << endl;
 		result += 1;
 	}
 
