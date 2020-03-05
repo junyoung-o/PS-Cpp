@@ -13,6 +13,7 @@ int main(void) {
 	}
 
 	else {
+		# 3n^2 - 3n + 2
 		while((3 * pow(y, 2)) - 3 * y + 2 <= n) {
 			y ++;
 		}
